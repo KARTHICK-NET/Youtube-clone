@@ -1,0 +1,78 @@
+.thumbnail-e{
+  width: 100%;
+  cursor: pointer;
+ 
+}
+.video-title{
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+ 
+  line-height: 20px;
+}
+.v-authour,.v-stats{
+  color: grey;
+  font-size: 12px;
+  
+}
+.v-stats{
+  margin-top: 5px;
+}
+.v-authour{
+  margin-top: 12px;
+  cursor: pointer;
+}
+.profile-pic{
+border-radius: 50px;
+width: 40px;
+cursor: pointer;
+
+}
+.video-rid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.thumbnail-picture{
+ margin-bottom: 10px;
+}
+.v-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 40px;
+}
+@media (max-width: 730px)
+{
+  .v-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 731px) and (max-width:999)
+{
+  .v-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px)
+{
+  .v-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.timer{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  padding: 4px;
+  font-weight: 500;
+  font-family: Roboto, arial;
+  font-size: 9px;
+}
+.thumbnail-picture{
+  position: relative;
+}
+
